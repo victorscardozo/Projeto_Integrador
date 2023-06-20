@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+
+
+@media(max-width:420px) {
+    #img_aluna{
+        display: none;
+    }
+    #logo_uvv{
+        height: auto;
+        margin-top: 13%;
+    }   
+    footer{
+        position: relative;
+        bottom: 3px;
+    }
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #D8D8D8;
+}
+
+header{
+    height: 12vh;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-color: #2E2D6A;
+    color: white;
+    font-size: 140%;
+    font-family: 'Poppins', sans-serif;
+}
+
+#logo_uvv {
+position: absolute;
+width: 50%;
+height: 60%;
+top: 2%;
+}
+
+#img_aluna{
+    width: 50%;
+    position: relative;
+    top: 45%;
+    left: 30%;
+
+}
+
+.ajuda{
+    width: 5vh;
+    display: flex;
+    position: relative;
+    right: -93%;
+    bottom: -60vh;
+}
+
+
+
+.retangulo_login {
+    position: relative;
+    width: 30%;
+    height: 56.5vh;
+    left: 53%;
+    
+
+    margin-top: 0px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #A8A8A8;
+    border-radius: 20px;
+}
+
+.login {
+    display: flex;
+    margin-top: -12%;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.5em;
+    line-height: 29px;
+    color: #000000;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;    
+}
+
+.inputemail{
+    display: flex;
+    margin-top: 10%;
+    font-style: normal;
+    font-weight: 700;
+    flex-direction: column;
+    line-height: 29px;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 6px;
+    border: 2px solid #636363;
+    width: 60%;
+
+}
+
+.inputsenha{
+    display: flex;
+    margin-top: 10%;
+    font-style: normal;
+    font-weight: 700;
+    flex-direction: column;
+    line-height: 29px;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 6px;
+    border: 2px solid #636363;
+    width: 60%;
+}
+
+.esquecisenha{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 0.6em;
+    text-decoration: underline;
+    cursor: pointer;
+    position: relative;
+    top: 1%;
+}
+
+.botaoentrar{
+    width: 25%;
+    height: 9%;
+    border-radius: 15px;
+    border: 0px;
+    background-color: #2E2D6A;
+    font-weight: bold;
+    color: #F5F5F5;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    top: 10%;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cadastro{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 75%;
+    position: relative;
+    top: 20%;
+}
+
+footer{
+    position: relative;
+    bottom: -7.3vh;
+    height: 15vh;
+    display: flex;
+    width: 100%;
+    background-color: #2E2D6A;
+    color: #F5F5F5;
+}
+
+footer img {
+    width: 15%;
+
+}
+
+div#cont1 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 25px;
+    margin-left: 10px;
+}
+
+h6#telefone {
+    margin-left: 5px;
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px;
+}
+
+div#cont2 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+h6#email {
+    margin-left: 5px;
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px;
+}
+
+#developed {
+    position: fixed;
+    right: 0;
+    font-size: 12px;
+    margin-top: 20px;
+    text-align: right;
+    margin-right: 10px;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px;
+}
+
+#brand {
+    position: fixed;
+    right: 0;
+    font-size: 12px;
+    text-align: right;
+    line-height: 160px;
+    margin-right: 10px;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px;
+}
