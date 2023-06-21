@@ -26,8 +26,16 @@ body {
     background-color: #D8D8D8;
 }
 
+
+.icon_logout{
+    margin-left: 1vw;
+    position: relative;
+    z-index: 2;
+   
+}
+
 .home{
-    margin-left: 46%;
+    margin-left: 43.0%;
 }
 
 

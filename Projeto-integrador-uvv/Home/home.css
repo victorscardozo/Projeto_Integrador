@@ -26,8 +26,16 @@ body {
     background-color: #D8D8D8;
 }
 
+
+.icon_logout{
+    margin-left: 1vw;
+    position: relative;
+    z-index: 2;
+   
+}
+
 .home{
-    margin-left: 48.5%;
+    margin-left: 45.5%;
 }
 
 
@@ -47,7 +55,19 @@ header{
     font-family: 'Poppins', sans-serif;
 }
 
+
+.botoes{
+    text-decoration: none;
+    color: #F5F5F5;
+    font-weight: bold;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left: 15%;
+}
+
+
 #logo_uvv {
+z-index: 1;
 position: absolute;
 width: 50%;
 height: 60%;
@@ -113,76 +133,12 @@ th,td{
     
 }
 
-.login {
-    display: flex;
-    margin-top: -12%;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 1.5em;
-    line-height: 29px;
-    color: #000000;
-    text-align: center;
-    font-family: 'Poppins', sans-serif;    
-}
 
-.inputemail{
-    display: flex;
-    margin-top: 10%;
-    font-style: normal;
-    font-weight: 700;
-    flex-direction: column;
-    line-height: 29px;
-    font-family: 'Poppins', sans-serif;
-    border-radius: 6px;
-    border: 2px solid #636363;
-    width: 60%;
 
-}
 
-.inputsenha{
-    display: flex;
-    margin-top: 10%;
-    font-style: normal;
-    font-weight: 700;
-    flex-direction: column;
-    line-height: 29px;
-    font-family: 'Poppins', sans-serif;
-    border-radius: 6px;
-    border: 2px solid #636363;
-    width: 60%;
-}
 
-.esquecisenha{
-    font-family: 'Poppins', sans-serif;
-    font-weight: bold;
-    font-size: 0.6em;
-    text-decoration: underline;
-    cursor: pointer;
-    position: relative;
-    top: 1%;
-}
 
-.botaoentrar{
-    width: 25%;
-    height: 10%;
-    border-radius: 15px;
-    border: 0px;
-    background-color: #2E2D6A;
-    font-weight: bold;
-    color: #F5F5F5;
-    cursor: pointer;
-    font-family: 'Poppins', sans-serif;
-    position: relative;
-    top: 10%;
-}
 
-.cadastro{
-    font-family: 'Poppins', sans-serif;
-    font-weight: bold;
-    font-size: 75%;
-    position: relative;
-    top: 20%;
-}
 
 footer{
     position: relative;
@@ -251,11 +207,3 @@ h6#email {
 }
 
 
-.botoes{
-    text-decoration: none;
-    color: #F5F5F5;
-    font-weight: bold;
-    flex-direction: row;
-    justify-content: space-evenly;
-    margin-left: 15%;
-}
