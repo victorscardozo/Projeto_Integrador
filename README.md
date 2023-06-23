@@ -1,2 +1,2 @@
 
-Github pages para o projeto 👉👉👉 https://victorscardozo.github.io/Projeto_Integrador/
+Clique para visualizar o projeto 👉👉👉 https://victorscardozo.github.io/Projeto_Integrador/
