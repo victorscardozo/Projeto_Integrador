@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
 
-
+/* Configurações de responsividade */
 @media(max-width:420px) {
     #img_aluna{
         display: none;
@@ -16,6 +16,13 @@
     }
 }
 
+
+
+
+
+
+/* Elementos e configurações do body*/
+
 * {
     padding: 0;
     margin: 0;
@@ -26,6 +33,30 @@ body {
     background-color: #D8D8D8;
 }
 
+#logo_uvv {
+    position: absolute;
+    width: 50%;
+    height: 60%;
+    top: 2%;
+}
+
+.ajuda{
+    width: 46.5px;
+    display: flex;
+    position: relative;
+    right: -96%;
+    bottom: -66vh;
+}
+
+
+
+
+
+
+
+
+
+/* Cabeçalho */
 
 .icon_logout{
     margin-left: 1vw;
@@ -36,6 +67,16 @@ body {
 
 .home{
     margin-left: 42%;
+}
+
+
+.botoes{
+    text-decoration: none;
+    color: #F5F5F5;
+    font-weight: bold;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left: 15%;
 }
 
 
@@ -55,33 +96,21 @@ header{
     font-family: 'Poppins', sans-serif;
 }
 
-#logo_uvv {
-    position: absolute;
-    width: 50%;
-    height: 60%;
-    top: 2%;
-    }
+
     
 
-#img_aluna{
-    width: 50%;
-    position: relative;
-    top: 45%;
-    left: 30%;
-
-}
-
-.ajuda{
-    width: 46.5px;
-    display: flex;
-    position: relative;
-    right: -96%;
-    bottom: -66vh;
-}
 
 
 
 
+
+
+
+
+
+
+
+/* Tabela central */
 
 .td{
     font-size: 15px;
@@ -90,6 +119,16 @@ header{
 td{
     border: none;
     
+}
+
+th{
+    display: flexbox;
+}
+
+.icon_seta{
+    
+    position: absolute;
+    left: 1.1vw;
 }
 
 .icon_arquivo{
@@ -136,6 +175,20 @@ td{
     
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Rodapé */
 
 footer{
     position: relative;
@@ -192,14 +245,7 @@ h6#email {
     letter-spacing: 1px;
 }
 
-.botoes{
-    text-decoration: none;
-    color: #F5F5F5;
-    font-weight: bold;
-    flex-direction: row;
-    justify-content: space-evenly;
-    margin-left: 15%;
-}
+
 
 #brand {
     position: fixed;

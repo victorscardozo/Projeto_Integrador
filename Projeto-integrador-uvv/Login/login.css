@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
 
-
+/* Configurações de responsividade */
 @media(max-width:420px) {
     #img_aluna{
         display: none;
@@ -16,15 +16,15 @@
     }
 }
 
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
 
-body {
-    background-color: #D8D8D8;
-}
+
+
+
+
+
+
+
+/* Cabeçalho */
 
 header{
     height: 12vh;
@@ -36,6 +36,15 @@ header{
     font-size: 140%;
     font-family: 'Poppins', sans-serif;
 }
+
+
+
+
+
+
+
+
+/* Elementos e configurações do body */
 
 #logo_uvv {
 position: absolute;
@@ -52,6 +61,17 @@ top: 2%;
 
 }
 
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #D8D8D8;
+}
+
 .ajuda{
     width: 5vh;
     display: flex;
@@ -61,6 +81,14 @@ top: 2%;
 }
 
 
+
+
+
+
+
+
+
+/* Div de Login */
 
 .retangulo_login {
     position: relative;
@@ -154,6 +182,20 @@ top: 2%;
     position: relative;
     top: 20%;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Rodapé */
 
 footer{
     position: relative;

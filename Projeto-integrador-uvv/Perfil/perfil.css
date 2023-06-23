@@ -17,6 +17,15 @@
     }
 }
 
+
+
+
+
+
+
+
+/* Elementos e configurações do body */
+
 * {
     padding: 0;
     margin: 0;
@@ -27,9 +36,21 @@ body {
     background-color: #D8D8D8;
 }
 
+#logo_uvv {
+    z-index: 1;
+    position: absolute;
+    width: 50%;
+    height: 60%;
+    top: 2%;
+}
 
-
-
+.ajuda{
+    width: 46.5px;
+    display: flex;
+    position: relative;
+    right: -96%;
+    bottom: -66vh;
+}
 
 
 
@@ -54,12 +75,22 @@ body {
 }
 
 
+.botoes{
+    text-decoration: none;
+    color: #F5F5F5;
+    font-weight: bold;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left: 15%;
+}
+
 .menu{
     display: flex;
     flex-direction: row;
     margin-left: 15%;
     
 }
+
 header{
     height: 12vh;
     align-items: center;
@@ -70,23 +101,8 @@ header{
     font-family: 'Poppins', sans-serif;
 }
 
-.botoes{
-    text-decoration: none;
-    color: #F5F5F5;
-    font-weight: bold;
-    flex-direction: row;
-    justify-content: space-evenly;
-    margin-left: 15%;
-}
 
 
-#logo_uvv {
-    z-index: 1;
-    position: absolute;
-    width: 50%;
-    height: 60%;
-    top: 2%;
-    }
 
 
 
@@ -148,6 +164,9 @@ header{
     top: -3.5vh;
     color: rgb(46, 46, 46);
 }
+
+
+
 
 
 .divemail{
@@ -235,15 +254,9 @@ header{
 
 
 
-/* Parte que está contida no Footer */
+/* Parte que está contida no rodapé */
 
-.ajuda{
-    width: 46.5px;
-    display: flex;
-    position: relative;
-    right: -96%;
-    bottom: -66vh;
-}
+
 
 footer{
     position: relative;

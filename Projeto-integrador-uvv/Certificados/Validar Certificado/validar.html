@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Certificados</title>
+    <link rel="stylesheet" href="validar.css">
+    <script src="validar.js"></script>
+</head> 
+<section>
+<body>
+   
+    <header>
+
+   <a href="../../Login/login.html"> <img class="icon_logout" src="../../Imagens/icon_logout.png" alt=""> </a>
+        <h3 class="home">Home</h3>
+        <nav class="menu">
+           
+            <a href="../../Pontuacao/pontuacao.html" class="botoes">Pontuação</a>
+            <a href="../Opcoes/certificados.html" class="botoes">Certificados</a>
+            <a href="../../Perfil/perfil.html" class="botoes">Perfil</a>
+        </nav>
+    </header>
+
+       
+        <div id="logo_uvv">
+            <img id="logo_uvv" src="https://uvv.br/wp-content/uploads/Nova_Marca_Azul_Horizontal.png" alt="logo_uvv">
+           
+        </div>
+      
+
+     <a href="../../Ajuda/ajuda.html"> <img class="ajuda" src="../../Imagens/ajuda.png" alt="ajuda"> </a>
+        
+   
+
+
+    <div class="retangulo_login"> 
+       
+        <h2 class="titulo">Validar Certificado</h2>
+      
+
+       <label for="arquivo" class="file-label">
+            <img src="../../Imagens/icon_arquivo2.png" alt="">
+        </label>
+        <br>
+        <br>
+        <input id="arquivo" type="file" onchange="checarArquivo(this)" minlength="0" maxlength="1"> 
+        <button id="lixeira" onclick="apagarArquivo()"> <img src="../../Imagens/icon _trash.png" alt=""></button>
+        <br>
+        <br>
+
+      <button class="enviar" onclick="enviar()">Enviar</button>
+    <h3 class="obs">*O prazo da análise de um certificado é de até 30 dias.</h3>
+
+
+    </div>
+
+
+</section>
+
+    <footer>
+        <div id="contato">
+            <div id="cont1">
+                <img src="../../Imagens/icon_telefone.png" alt="telefone">
+                <h6 id="telefone">33333-3333</h6>
+            </div>
+            <div id="cont2">
+                <img src="../../Imagens/icon_email.png" alt="email">
+                <h6 id="email">turmacc1mb@uvv.com</h6>
+            </div>
+        </div>
+
+        <div id="info">
+            <h6 id="developed">Developed by turma CC1MB: <br> Ciência da computação</h6>
+            <h6 id="brand">© 2023/1, UVV</h6>
+        </div>
+    </footer>
+</body>
+
+</html>

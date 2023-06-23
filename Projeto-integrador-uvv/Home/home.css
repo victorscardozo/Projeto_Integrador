@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
 
-
+/* Configurações de responsividade */
 @media(max-width:420px) {
     #img_aluna{
         display: none;
@@ -16,6 +16,13 @@
     }
 }
 
+
+
+
+
+
+/* Elementos do body e configurações */
+
 * {
     padding: 0;
     margin: 0;
@@ -26,6 +33,30 @@ body {
     background-color: #D8D8D8;
 }
 
+#logo_uvv {
+z-index: 1;
+position: absolute;
+width: 50%;
+height: 60%;
+top: 2%;
+}
+
+.ajuda{
+    width: 46.5px;
+    display: flex;
+    position: relative;
+    right: -96%;
+    bottom: -66vh;
+}
+
+
+
+
+
+
+
+
+/* Cabeçalho */
 
 .icon_logout{
     margin-left: 1vw;
@@ -38,6 +69,14 @@ body {
     margin-left: 45.5%;
 }
 
+.botoes{
+    text-decoration: none;
+    color: #F5F5F5;
+    font-weight: bold;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left: 15%;
+}
 
 .menu{
     display: flex;
@@ -56,44 +95,18 @@ header{
 }
 
 
-.botoes{
-    text-decoration: none;
-    color: #F5F5F5;
-    font-weight: bold;
-    flex-direction: row;
-    justify-content: space-evenly;
-    margin-left: 15%;
-}
-
-
-#logo_uvv {
-z-index: 1;
-position: absolute;
-width: 50%;
-height: 60%;
-top: 2%;
-}
-
-#img_aluna{
-    width: 50%;
-    position: relative;
-    top: 45%;
-    left: 30%;
-
-}
-
-.ajuda{
-    width: 46.5px;
-    display: flex;
-    position: relative;
-    right: -96%;
-    bottom: -66vh;
-}
 
 
 
 
 
+
+
+
+
+
+
+/* Tabela central */
 
 
 th,td{
@@ -139,6 +152,8 @@ th,td{
 
 
 
+
+/* Rodapé */
 
 footer{
     position: relative;

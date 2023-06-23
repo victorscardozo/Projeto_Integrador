@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
 
-
+/* Configurações de responsividade*/
 @media(max-width:420px) {
     #img_aluna{
         display: none;
@@ -16,6 +16,13 @@
     }
 }
 
+
+
+
+
+
+/* Elementos do body e configurações */
+
 * {
     padding: 0;
     margin: 0;
@@ -27,6 +34,31 @@ body {
 }
 
 
+.ajuda{
+    width: 46.5px;
+    display: flex;
+    position: relative;
+    right: -96%;
+    bottom: -66vh;
+}
+
+#logo_uvv {
+    position: absolute;
+    width: 50%;
+    height: 60%;
+    top: 2%;
+}
+
+
+
+
+
+
+
+
+
+/* Cabeçalho */
+
 .icon_logout{
     margin-left: 1vw;
     position: relative;
@@ -36,6 +68,16 @@ body {
 
 .home{
     margin-left: 42.5%;
+}
+
+
+.botoes{
+    text-decoration: none;
+    color: #F5F5F5;
+    font-weight: bold;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left: 15%;
 }
 
 
@@ -55,31 +97,24 @@ header{
     font-family: 'Poppins', sans-serif;
 }
 
-#logo_uvv {
-    position: absolute;
-    width: 50%;
-    height: 60%;
-    top: 2%;
-    }
+
     
-#img_aluna{
-    width: 50%;
-    position: relative;
-    top: 45%;
-    left: 30%;
 
+
+
+
+
+
+
+
+
+/* Tabela que mostra os status dos certificados*/
+
+.icon_seta{
+    
+    position: absolute;
+    left: 1.1vw;
 }
-
-.ajuda{
-    width: 46.5px;
-    display: flex;
-    position: relative;
-    right: -96%;
-    bottom: -66vh;
-}
-
-
-
 
 
 .td{
@@ -107,6 +142,7 @@ td{
     height: 15px;
     background-color: #39a711;
     border-radius: 50%;
+    border: 1px solid rgb(61, 61, 61);
     justify-content: center;
     align-items: center;
 
@@ -126,6 +162,7 @@ td{
     height: 15px;
     background-color: #d89211;
     border-radius: 50%;
+    border: 1px solid rgb(61, 61, 61);
     justify-content: center;
     align-items: center;
 
@@ -145,6 +182,7 @@ td{
     height: 15px;
     background-color: #F21D1D;
     border-radius: 50%;
+    border: 1px solid rgb(61, 61, 61);
     justify-content: center;
     align-items: center;
 
@@ -164,6 +202,7 @@ td{
     height: 15px;
     background-color: #39a711;
     border-radius: 50%;
+    border: 1px solid rgb(61, 61, 61);
     justify-content: center;
     align-items: center;
 
@@ -212,6 +251,16 @@ td{
     background: #A8A8A8;
     
 }
+
+
+
+
+
+
+
+
+
+/* Rodapé */
 
 
 footer{
@@ -269,14 +318,7 @@ h6#email {
     letter-spacing: 1px;
 }
 
-.botoes{
-    text-decoration: none;
-    color: #F5F5F5;
-    font-weight: bold;
-    flex-direction: row;
-    justify-content: space-evenly;
-    margin-left: 15%;
-}
+
 
 #brand {
     position: fixed;
