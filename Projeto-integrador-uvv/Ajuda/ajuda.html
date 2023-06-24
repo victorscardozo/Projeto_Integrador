@@ -1,12 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Certificados</title>
     <link rel="stylesheet" href="ajuda.css">
+    <script src="ajuda.js"></script>
 </head> 
+
+
+
+
+
 <section>
 <body>
    
@@ -34,7 +42,7 @@
    
 
 
-    <div class="retangulo_login"> 
+<form class="retangulo_login" onsubmit="sendEmail(); reset(); return false;"> 
        
         <h2 class="faleconosco">Fale conosco</h2>
         <br>
@@ -42,18 +50,23 @@
         <h3 class="avisos">Horários de suporte:   Segunda à sábado - 8h as 18h <br> Tempo de resposta estimado:  Até 3 horas</h3>
         <br>
         <br>
-      <input class="inputinfo" type="text" placeholder="Nome">
-      <input class="inputinfo" type="text" placeholder="E-mail">
-      <input class="inputinfo" type="number" placeholder="Telefone">
+      <input id="inputNome" type="text" placeholder="Nome" required>
+      <input id="inputEmail" type="email" placeholder="E-mail" required>
+      <input id="inputTelefone" type="number" placeholder="Telefone">
 
       <textarea name="" id="textoemail" placeholder="Comentário"></textarea>
       
-      <button>Enviar email</button>
+      <button type="submit">Enviar email</button>
 
-    </div>
+</form>
+    
 
-
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+</body>
 </section>
+
+
+
 
     <footer>
         <div id="contato">
@@ -72,6 +85,6 @@
             <h6 id="brand">© 2023/1, UVV</h6>
         </div>
     </footer>
-</body>
+
 
 </html>
