@@ -10,4 +10,4 @@ This is the Integrated Project part of the Web Software Construction course, whe
  
 ## Result
 
-You can visualize the project by accessing: https://victorscardozo.github.io/Projeto_Integrador/
+You can visualize the project by accessing: https://victorscardozo.github.io/Projeto_Integrador/ (Please note that if you click on the login button, it will take you to the home page of the application)
