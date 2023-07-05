@@ -1,7 +1,7 @@
 
 # Projeto Integrador
 
-Esta é a parte do projeto integrador da disciplina de Construção de Software para a Web, onde construímos a idéia de uma aplicação para o gerenciamento e validação de atividades complementares. Transformamos algumas das telas produzidas no Figma na disciplina de Experiência de Interface com o Usuário em HTML, CSS, e um pouco de Javascript.
+Esta é a parte do projeto integrador da disciplina de Construção de Software para a Web, onde construímos a idéia de uma aplicação para o gerenciamento e validação de atividades complementares. Transformei algumas das telas produzidas no Figma pelos meus colegas na disciplina de Experiência de Interface com o Usuário em HTML, CSS, e um pouco de Javascript.
 
 
 ## Integrantes do Grupo (turma CC1MB):
